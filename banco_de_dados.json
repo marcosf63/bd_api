@@ -1,0 +1,2369 @@
+{
+    "categorias" : [
+        
+        {"id": 1, "nome": "Servicos Domesticos"},
+        {"id": 2, "nome": "Reformas e Reparos"},
+        {"id": 3, "nome": "Consutoria"},
+        {"id": 4, "nome": "Tecnologia"},
+        {"id": 5, "nome": "Moda e Beleza"},
+        {"id": 6, "nome": "Aulas"},
+        {"id": 7, "nome": "Advogado"}
+    ],
+
+    "planos" : [
+        {
+            "id": 1,
+            "nome": "PF1",
+            "descricao": "Plano Pessoa Física 1 serviço",
+            "periodicidade": "Mensal",
+            "valor": 19.90
+        },
+        {
+            "id": 2,
+            "nome": "PF2",
+            "descricao": "Plano Pessoa Física 2 serviço",
+            "periodicidade": "Mensal",
+            "valor": 22.90
+        },
+        {
+            "id": 3,
+            "nome": "PF3",
+            "descricao": "Plano Pessoa Física 3 serviço",
+            "periodicidade": "Mensal",
+            "valor": 24.90
+        },
+        {
+            "id": 4,
+            "nome": "PJ1",
+            "descricao": "Plano Pessoa Jurídica 1 serviço",
+            "periodicidade": "Mensal",
+            "valor": 29.90
+        },
+        {
+            "id": 5,
+            "nome": "PJ2",
+            "descricao": "Plano Pessoa Jurídica 3 serviço",
+            "periodicidade": "Mensal",
+            "valor": 59.90
+        },
+        {
+            "id": 6,
+            "nome": "PF3",
+            "descricao": "Plano Pessoa Jurídica 5 serviço",
+            "periodicidade": "Mensal",
+            "valor": 99.90
+        }
+    ],
+
+    "servicos" : [
+        {"id": 1, "nome": "Eletricista", "categoria_id": 2},
+        {"id": 2, "nome": "Babá", "categoria_id": 1},
+        {"id": 3, "nome": "Contador", "categoria_id": 3},
+        {"id": 4, "nome": "Advogado", "categoria_id": 7},
+        {"id": 5, "nome": "Barbeiro", "categoria_id": 5},
+        {"id": 6, "nome": "Professor", "categoria_id": 6},
+        {"id": 7, "nome": "Programador", "categoria_id": 4}
+    ],
+
+    "usuarios" : [
+        {
+            "id": 1,
+            "nome": "Marcos Oliveira",
+            "email": "marcosf63@mail.com",
+            "senha": "senha",
+            "tipo": "Administrador",
+            "endereco": "Rua 1 casa 6, Centro",
+            "cidade": "Sobral",
+            "cep": "62.040-750",
+            "telefoneFixo1": "88-3677-1407",
+            "telefoneFixo2": "88-3611-1111",
+            "celuliar1": "99999-99999",
+            "celular2": "",
+            "foto": "/assets/foto1.PNG",
+            "situacao": "ativo",
+            "in_pf_pj": "PF",
+            "CPF": "111.111.111-11",
+            "CNPJ": ""
+        },
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "juliana.silva@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto3.PNG", 
+            "id": 51, 
+            "in_pf_pj": "PF", 
+            "nome": "Juliana Silva", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "reno.vasconcelos@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 52, 
+            "in_pf_pj": "PF", 
+            "nome": "Reno Vasconcelos", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "beatriz.oliveira@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 53, 
+            "in_pf_pj": "PF", 
+            "nome": "Beatriz Oliveira", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "beatriz.gomes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 54, 
+            "in_pf_pj": "PF", 
+            "nome": "Beatriz Gomes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "germana.gomes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 55, 
+            "in_pf_pj": "PF", 
+            "nome": "Germana Gomes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "ana.gomes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 56, 
+            "in_pf_pj": "PF", 
+            "nome": "Ana Gomes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "cristiano.oliveira@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 57, 
+            "in_pf_pj": "PF", 
+            "nome": "Cristiano Oliveira", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "paula.fernandes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 58, 
+            "in_pf_pj": "PF", 
+            "nome": "Paula Fernandes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "juliana.silva@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 59, 
+            "in_pf_pj": "PF", 
+            "nome": "Juliana Silva", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "marcio.rocha@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto4.PNG", 
+            "id": 60, 
+            "in_pf_pj": "PF", 
+            "nome": "Marcio Rocha", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "germana.vasconcelos@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto4.PNG", 
+            "id": 61, 
+            "in_pf_pj": "PF", 
+            "nome": "Germana Vasconcelos", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "cristiano.vasconcelos@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 62, 
+            "in_pf_pj": "PF", 
+            "nome": "Cristiano Vasconcelos", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "samuel.silva@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto3.PNG", 
+            "id": 63, 
+            "in_pf_pj": "PF", 
+            "nome": "Samuel Silva", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "marcio.fernandes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 64, 
+            "in_pf_pj": "PF", 
+            "nome": "Marcio Fernandes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "paula.vasconcelos@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto3.PNG", 
+            "id": 65, 
+            "in_pf_pj": "PF", 
+            "nome": "Paula Vasconcelos", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "paulo.vasconcelos@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 66, 
+            "in_pf_pj": "PF", 
+            "nome": "Paulo Vasconcelos", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "levi.barreto@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 67, 
+            "in_pf_pj": "PF", 
+            "nome": "Levi Barreto", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "germana.fernandes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 68, 
+            "in_pf_pj": "PF", 
+            "nome": "Germana Fernandes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "levi.rocha@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto3.PNG", 
+            "id": 69, 
+            "in_pf_pj": "PF", 
+            "nome": "Levi Rocha", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "beatriz.rocha@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto4.PNG", 
+            "id": 70, 
+            "in_pf_pj": "PF", 
+            "nome": "Beatriz Rocha", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "roberto.fernandes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 71, 
+            "in_pf_pj": "PF", 
+            "nome": "Roberto Fernandes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "joao.fernandes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto4.PNG", 
+            "id": 72, 
+            "in_pf_pj": "PF", 
+            "nome": "Joao Fernandes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "joao.rocha@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 73, 
+            "in_pf_pj": "PF", 
+            "nome": "Joao Rocha", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "antonio.oliveira@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto4.PNG", 
+            "id": 74, 
+            "in_pf_pj": "PF", 
+            "nome": "Antonio Oliveira", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "marcelo.santos@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 75, 
+            "in_pf_pj": "PF", 
+            "nome": "Marcelo Santos", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "julia.gomes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 76, 
+            "in_pf_pj": "PF", 
+            "nome": "Julia Gomes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "patricia.silva@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 77, 
+            "in_pf_pj": "PF", 
+            "nome": "Patricia Silva", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "julia.rocha@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto4.PNG", 
+            "id": 78, 
+            "in_pf_pj": "PF", 
+            "nome": "Julia Rocha", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "patricia.gomes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 79, 
+            "in_pf_pj": "PF", 
+            "nome": "Patricia Gomes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "reno.vasconcelos@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto4.PNG", 
+            "id": 80, 
+            "in_pf_pj": "PF", 
+            "nome": "Reno Vasconcelos", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "marcio.barreto@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 81, 
+            "in_pf_pj": "PF", 
+            "nome": "Marcio Barreto", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "maria.rocha@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto4.PNG", 
+            "id": 82, 
+            "in_pf_pj": "PF", 
+            "nome": "Maria Rocha", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "ana.ribeiro@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto4.PNG", 
+            "id": 83, 
+            "in_pf_pj": "PF", 
+            "nome": "Ana Ribeiro", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "paulo.santos@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 84, 
+            "in_pf_pj": "PF", 
+            "nome": "Paulo Santos", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "roberto.rocha@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 85, 
+            "in_pf_pj": "PF", 
+            "nome": "Roberto Rocha", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "roberto.rocha@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto3.PNG", 
+            "id": 86, 
+            "in_pf_pj": "PF", 
+            "nome": "Roberto Rocha", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "levi.silva@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto4.PNG", 
+            "id": 87, 
+            "in_pf_pj": "PF", 
+            "nome": "Levi Silva", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "marcos.silva@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto3.PNG", 
+            "id": 88, 
+            "in_pf_pj": "PF", 
+            "nome": "Marcos Silva", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "paulo.santos@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto3.PNG", 
+            "id": 89, 
+            "in_pf_pj": "PF", 
+            "nome": "Paulo Santos", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "antonio.silva@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 90, 
+            "in_pf_pj": "PF", 
+            "nome": "Antonio Silva", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "roberto.ribeiro@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 91, 
+            "in_pf_pj": "PF", 
+            "nome": "Roberto Ribeiro", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "marcos.oliveira@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 92, 
+            "in_pf_pj": "PF", 
+            "nome": "Marcos Oliveira", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "marcelo.ribeiro@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto4.PNG", 
+            "id": 93, 
+            "in_pf_pj": "PF", 
+            "nome": "Marcelo Ribeiro", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "maria.silva@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 94, 
+            "in_pf_pj": "PF", 
+            "nome": "Maria Silva", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "germana.gomes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 95, 
+            "in_pf_pj": "PF", 
+            "nome": "Germana Gomes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "paulo.barreto@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 96, 
+            "in_pf_pj": "PF", 
+            "nome": "Paulo Barreto", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "paulo.santos@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 97, 
+            "in_pf_pj": "PF", 
+            "nome": "Paulo Santos", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "roberto.vasconcelos@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto1.PNG", 
+            "id": 98, 
+            "in_pf_pj": "PF", 
+            "nome": "Roberto Vasconcelos", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "maria.fernandes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto3.PNG", 
+            "id": 99, 
+            "in_pf_pj": "PF", 
+            "nome": "Maria Fernandes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }, 
+        {
+            "CNPJ": "", 
+            "CPF": "111.111.111-11", 
+            "celular2": "99999-8888", 
+            "celuliar1": "99999-99999", 
+            "cep": "62.040-750", 
+            "cidade": "Sobral", 
+            "email": "ana.fernandes@mail.com", 
+            "endereco": "Rua 1 casa 6, Centro", 
+            "foto": "/assets/foto2.PNG", 
+            "id": 100, 
+            "in_pf_pj": "PF", 
+            "nome": "Ana Fernandes", 
+            "senha": "senha", 
+            "situacao": "ativo", 
+            "telefoneFixo1": "88-3677-1407", 
+            "telefoneFixo2": "88-3611-1111", 
+            "tipo": "Consumidor"
+        }
+        
+    ],
+
+    "servicos_cadastrado" : [
+        {
+            "descricao": "Sevi\u00e7os Advocat\u00edcios. Todos os tipos de causa.", 
+            "id": 1, 
+            "servico_id": 4, 
+            "usuario_id": 2
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 2
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 3
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 3
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 4
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 4
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 5
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 5
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 6
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 6
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 7
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 7
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 8
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 8
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 9
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 9
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 10
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 10
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 11
+        }, 
+        {
+            "descricao": "Servi\u00e7oes de cuidados com crian\u00e7as", 
+            "id": 1, 
+            "servico_id": 2, 
+            "usuario_id": 11
+        }, 
+        {
+            "descricao": "Servi\u00e7oes de cuidados com crian\u00e7as", 
+            "id": 1, 
+            "servico_id": 2, 
+            "usuario_id": 12
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 12
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 13
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 13
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 14
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 14
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 15
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 15
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 16
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 16
+        }, 
+        {
+            "descricao": "Servi\u00e7oes de cuidados com crian\u00e7as", 
+            "id": 1, 
+            "servico_id": 2, 
+            "usuario_id": 17
+        }, 
+        {
+            "descricao": "Servi\u00e7oes de cuidados com crian\u00e7as", 
+            "id": 1, 
+            "servico_id": 2, 
+            "usuario_id": 17
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 18
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 18
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 19
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 19
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 20
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 20
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 21
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 21
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 22
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 22
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 23
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 23
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 24
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 24
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 25
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 25
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 26
+        }, 
+        {
+            "descricao": "Sevi\u00e7os Advocat\u00edcios. Todos os tipos de causa.", 
+            "id": 1, 
+            "servico_id": 4, 
+            "usuario_id": 26
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 27
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 27
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 28
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 28
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 29
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 29
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 30
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 30
+        }, 
+        {
+            "descricao": "Servi\u00e7oes de cuidados com crian\u00e7as", 
+            "id": 1, 
+            "servico_id": 2, 
+            "usuario_id": 31
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 31
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 32
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 32
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 33
+        }, 
+        {
+            "descricao": "Servi\u00e7oes de cuidados com crian\u00e7as", 
+            "id": 1, 
+            "servico_id": 2, 
+            "usuario_id": 33
+        }, 
+        {
+            "descricao": "Sevi\u00e7os Advocat\u00edcios. Todos os tipos de causa.", 
+            "id": 1, 
+            "servico_id": 4, 
+            "usuario_id": 34
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 34
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 35
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 35
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 36
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 36
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 37
+        }, 
+        {
+            "descricao": "Servi\u00e7oes de cuidados com crian\u00e7as", 
+            "id": 1, 
+            "servico_id": 2, 
+            "usuario_id": 37
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 38
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 38
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 39
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 39
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 40
+        }, 
+        {
+            "descricao": "Sevi\u00e7os Advocat\u00edcios. Todos os tipos de causa.", 
+            "id": 1, 
+            "servico_id": 4, 
+            "usuario_id": 40
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 41
+        }, 
+        {
+            "descricao": "Servi\u00e7oes de cuidados com crian\u00e7as", 
+            "id": 1, 
+            "servico_id": 2, 
+            "usuario_id": 41
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 42
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 42
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 43
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 43
+        }, 
+        {
+            "descricao": "Aulas particulares a domic\u00edlio", 
+            "id": 1, 
+            "servico_id": 6, 
+            "usuario_id": 44
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 44
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 45
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 45
+        }, 
+        {
+            "descricao": "Sevi\u00e7os Advocat\u00edcios. Todos os tipos de causa.", 
+            "id": 1, 
+            "servico_id": 4, 
+            "usuario_id": 46
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 46
+        }, 
+        {
+            "descricao": "Sevi\u00e7os Advocat\u00edcios. Todos os tipos de causa.", 
+            "id": 1, 
+            "servico_id": 4, 
+            "usuario_id": 47
+        }, 
+        {
+            "descricao": "Sevi\u00e7oes cont\u00e1beis e administra\u00e7\u00e3o de pagamentos de impostos", 
+            "id": 1, 
+            "servico_id": 3, 
+            "usuario_id": 47
+        }, 
+        {
+            "descricao": "Instala\u00e7oes el\u00e9tricas prediais e residenciais", 
+            "id": 1, 
+            "servico_id": 1, 
+            "usuario_id": 48
+        }, 
+        {
+            "descricao": "Servi\u00e7oes de cuidados com crian\u00e7as", 
+            "id": 1, 
+            "servico_id": 2, 
+            "usuario_id": 48
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 49
+        }, 
+        {
+            "descricao": "Desenvolvimento de software web e mobile. Linguagens C, Java, Python e Javascript", 
+            "id": 1, 
+            "servico_id": 7, 
+            "usuario_id": 49
+        }, 
+        {
+            "descricao": "Corte de cabelo tradicional e personalizado estilo Neymar", 
+            "id": 1, 
+            "servico_id": 5, 
+            "usuario_id": 50
+        }, 
+        {
+            "descricao": "Sevi\u00e7os Advocat\u00edcios. Todos os tipos de causa.", 
+            "id": 1, 
+            "servico_id": 4, 
+            "usuario_id": 50
+        }
+    ],
+    "anuncios": [
+        {
+            "id": 1, 
+            "in_exibir": "S", 
+            "servico_cadastrado_id": 1
+        }, 
+        {
+            "id": 2, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 2
+        }, 
+        {
+            "id": 3, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 3
+        }, 
+        {
+            "id": 4, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 4
+        }, 
+        {
+            "id": 5, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 5
+        }, 
+        {
+            "id": 6, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 6
+        }, 
+        {
+            "id": 7, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 7
+        }, 
+        {
+            "id": 8, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 8
+        }, 
+        {
+            "id": 9, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 9
+        }, 
+        {
+            "id": 10, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 10
+        }, 
+        {
+            "id": 11, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 11
+        }, 
+        {
+            "id": 12, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 12
+        }, 
+        {
+            "id": 13, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 13
+        }, 
+        {
+            "id": 14, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 14
+        }, 
+        {
+            "id": 15, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 15
+        }, 
+        {
+            "id": 16, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 16
+        }, 
+        {
+            "id": 17, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 17
+        }, 
+        {
+            "id": 18, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 18
+        }, 
+        {
+            "id": 19, 
+            "in_exibir": "S", 
+            "servico_cadastrado_id": 19
+        }, 
+        {
+            "id": 20, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 20
+        }, 
+        {
+            "id": 21, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 21
+        }, 
+        {
+            "id": 22, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 22
+        }, 
+        {
+            "id": 23, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 23
+        }, 
+        {
+            "id": 24, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 24
+        }, 
+        {
+            "id": 25, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 25
+        }, 
+        {
+            "id": 26, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 26
+        }, 
+        {
+            "id": 27, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 27
+        }, 
+        {
+            "id": 28, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 28
+        }, 
+        {
+            "id": 29, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 29
+        }, 
+        {
+            "id": 30, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 30
+        }, 
+        {
+            "id": 31, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 31
+        }, 
+        {
+            "id": 32, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 32
+        }, 
+        {
+            "id": 33, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 33
+        }, 
+        {
+            "id": 34, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 34
+        }, 
+        {
+            "id": 35, 
+            "in_exibir": "S", 
+            "servico_cadastrado_id": 35
+        }, 
+        {
+            "id": 36, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 36
+        }, 
+        {
+            "id": 37, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 37
+        }, 
+        {
+            "id": 38, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 38
+        }, 
+        {
+            "id": 39, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 39
+        }, 
+        {
+            "id": 40, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 40
+        }, 
+        {
+            "id": 41, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 41
+        }, 
+        {
+            "id": 42, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 42
+        }, 
+        {
+            "id": 43, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 43
+        }, 
+        {
+            "id": 44, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 44
+        }, 
+        {
+            "id": 45, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 45
+        }, 
+        {
+            "id": 46, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 46
+        }, 
+        {
+            "id": 47, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 47
+        }, 
+        {
+            "id": 48, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 48
+        }, 
+        {
+            "id": 49, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 49
+        }, 
+        {
+            "id": 50, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 50
+        }, 
+        {
+            "id": 51, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 51
+        }, 
+        {
+            "id": 52, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 52
+        }, 
+        {
+            "id": 53, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 53
+        }, 
+        {
+            "id": 54, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 54
+        }, 
+        {
+            "id": 55, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 55
+        }, 
+        {
+            "id": 56, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 56
+        }, 
+        {
+            "id": 57, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 57
+        }, 
+        {
+            "id": 58, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 58
+        }, 
+        {
+            "id": 59, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 59
+        }, 
+        {
+            "id": 60, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 60
+        }, 
+        {
+            "id": 61, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 61
+        }, 
+        {
+            "id": 62, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 62
+        }, 
+        {
+            "id": 63, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 63
+        }, 
+        {
+            "id": 64, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 64
+        }, 
+        {
+            "id": 65, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 65
+        }, 
+        {
+            "id": 66, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 66
+        }, 
+        {
+            "id": 67, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 67
+        }, 
+        {
+            "id": 68, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 68
+        }, 
+        {
+            "id": 69, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 69
+        }, 
+        {
+            "id": 70, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 70
+        }, 
+        {
+            "id": 71, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 71
+        }, 
+        {
+            "id": 72, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 72
+        }, 
+        {
+            "id": 73, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 73
+        }, 
+        {
+            "id": 74, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 74
+        }, 
+        {
+            "id": 75, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 75
+        }, 
+        {
+            "id": 76, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 76
+        }, 
+        {
+            "id": 77, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 77
+        }, 
+        {
+            "id": 78, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 78
+        }, 
+        {
+            "id": 79, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 79
+        }, 
+        {
+            "id": 80, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 80
+        }, 
+        {
+            "id": 81, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 81
+        }, 
+        {
+            "id": 82, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 82
+        }, 
+        {
+            "id": 83, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 83
+        }, 
+        {
+            "id": 84, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 84
+        }, 
+        {
+            "id": 85, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 85
+        }, 
+        {
+            "id": 86, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 86
+        }, 
+        {
+            "id": 87, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 87
+        }, 
+        {
+            "id": 88, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 88
+        }, 
+        {
+            "id": 89, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 89
+        }, 
+        {
+            "id": 90, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 90
+        }, 
+        {
+            "id": 91, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 91
+        }, 
+        {
+            "id": 92, 
+            "in_exibir": "S", 
+            "servico_cadastrado_id": 92
+        }, 
+        {
+            "id": 93, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 93
+        }, 
+        {
+            "id": 94, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 94
+        }, 
+        {
+            "id": 95, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 95
+        }, 
+        {
+            "id": 96, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 96
+        }, 
+        {
+            "id": 97, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 97
+        }, 
+        {
+            "id": 98, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 98
+        }, 
+        {
+            "id": 99, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 99
+        }, 
+        {
+            "id": 100, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 100
+        }, 
+        {
+            "id": 101, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 101
+        }, 
+        {
+            "id": 102, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 102
+        }, 
+        {
+            "id": 103, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 103
+        }, 
+        {
+            "id": 104, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 104
+        }, 
+        {
+            "id": 105, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 105
+        }, 
+        {
+            "id": 106, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 106
+        }, 
+        {
+            "id": 107, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 107
+        }, 
+        {
+            "id": 108, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 108
+        }, 
+        {
+            "id": 109, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 109
+        }, 
+        {
+            "id": 110, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 110
+        }, 
+        {
+            "id": 111, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 111
+        }, 
+        {
+            "id": 112, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 112
+        }, 
+        {
+            "id": 113, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 113
+        }, 
+        {
+            "id": 114, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 114
+        }, 
+        {
+            "id": 115, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 115
+        }, 
+        {
+            "id": 116, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 116
+        }, 
+        {
+            "id": 117, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 117
+        }, 
+        {
+            "id": 118, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 118
+        }, 
+        {
+            "id": 119, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 119
+        }, 
+        {
+            "id": 120, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 120
+        }, 
+        {
+            "id": 121, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 121
+        }, 
+        {
+            "id": 122, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 122
+        }, 
+        {
+            "id": 123, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 123
+        }, 
+        {
+            "id": 124, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 124
+        }, 
+        {
+            "id": 125, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 125
+        }, 
+        {
+            "id": 126, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 126
+        }, 
+        {
+            "id": 127, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 127
+        }, 
+        {
+            "id": 128, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 128
+        }, 
+        {
+            "id": 129, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 129
+        }, 
+        {
+            "id": 130, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 130
+        }, 
+        {
+            "id": 131, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 131
+        }, 
+        {
+            "id": 132, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 132
+        }, 
+        {
+            "id": 133, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 133
+        }, 
+        {
+            "id": 134, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 134
+        }, 
+        {
+            "id": 135, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 135
+        }, 
+        {
+            "id": 136, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 136
+        }, 
+        {
+            "id": 137, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 137
+        }, 
+        {
+            "id": 138, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 138
+        }, 
+        {
+            "id": 139, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 139
+        }, 
+        {
+            "id": 140, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 140
+        }, 
+        {
+            "id": 141, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 141
+        }, 
+        {
+            "id": 142, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 142
+        }, 
+        {
+            "id": 143, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 143
+        }, 
+        {
+            "id": 144, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 144
+        }, 
+        {
+            "id": 145, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 145
+        }, 
+        {
+            "id": 146, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 146
+        }, 
+        {
+            "id": 147, 
+            "in_exibir": "N", 
+            "servico_cadastrado_id": 147
+        }
+    ]
+    
+}
